@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* prduto */
+    --brand-color-light: #60A5FA;
+    --brand-color-dark: #1D4ED8;
+    /* base */
+    --bg-color: #0F172A;
+    --stroke-color: #1E293B;
+    /* textos */
+    --text-color-primary: #f1f5f9;
+    --text-color-secundary: #CBD5E1;
+
+    font-family: "Archivo", sans-serif;
+    h1: bolder 1.5rem/135% var(--text-color-primary);
+    h2: bolder 1rem/140% var(--text-color-primary);
+    h3: bolder 0.9rem/140% var(--text-color-primary);
+    spann: bold 0.9rem/145% var(--text-color-secundary);
+    p: normal 0.9rem/160% var(--text-color-secundary) 
+}
+
+body {
+    font-family: "Archivo", sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color-primary);
+}
