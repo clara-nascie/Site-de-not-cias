@@ -45,16 +45,16 @@ h1, h2, h3 {
     font: inherit;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
     max-width: 80rem;
-    padding: 2rem;
+    padding: 0.5rem 2rem;
 }
 
-/* utility-first */
-.grid {
-    display: grid;
-}
-
-.grid-flow-col {
-    grid-auto-flow: column;
+main {
+   margin-top: 1rem;
+   margin-bottom: 5rem;
 }

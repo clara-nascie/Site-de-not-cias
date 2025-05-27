@@ -20,5 +20,6 @@
 #secondary {
     padding-block: 0.9rem;
     border: solid 0.06rem var(--stroke-color);
-    border-inline: none;   
+    border-inline: none;  /*retira a borda dos lados*/
+    justify-content: space-between;
 }
