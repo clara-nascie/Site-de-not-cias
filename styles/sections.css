@@ -24,14 +24,13 @@
         position: absolute;
         bottom: 0%;
         padding: 1.5rem;
-    }
 
-    h2 {
-        margin-top: 0.5rem;
-        font-weight: bold;
-        font-size: 1.5rem;
-        line-height: 135%;
-        color: var(--text-color-primary);
-    }
+        &:has(.text-lg) {     /*aplica a propriedade no elem que tiver a classe dentro do parenteses*/
+            padding: 0.8rem;
+        }
 
+        h2 {
+            margin-top: 0.5rem;
+        }
+    }
 }
