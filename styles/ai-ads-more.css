@@ -1,0 +1,54 @@
+#ai {
+   
+    grid-area: ai;
+    display: grid;
+  
+    img {
+        width: 11rem;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    p {
+        margin-top: 0.5rem;
+    }
+
+    h3 {
+        margin-top: 0.3rem;
+    }
+
+   header {
+        align-items:first baseline;
+    } 
+
+}
+
+#aside {
+    grid-area: aside;
+    display: grid;
+}
+
+#ads {
+    display: grid;
+    gap: 1rem;
+    padding-left: 1rem; 
+}
+
+#more {
+
+    display: grid;
+    gap: 1rem;
+    padding-left: 1rem;
+  
+    img {
+        width: 5rem;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    h3 {
+        margin-top: 0.3rem;
+    }
+   
+}
+

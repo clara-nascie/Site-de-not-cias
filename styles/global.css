@@ -28,7 +28,7 @@ body {
     font: var(--text);
     color: var(--text-color-primary);
     background-color: var(--bg-color);
-
+    align-items: center;
 }
 
 a {
@@ -50,13 +50,23 @@ img {
 
 .container {
     max-width: 80rem;
-    padding: 0.5 2rem;
+    padding-block: 0.5rem 2rem;
     margin-inline: auto;
 }
 
 main {
-   margin-top: 1rem;
-   margin-bottom: 5rem;
+   margin-top: 3rem;
+   row-gap: 5rem;
+   column-gap: 3rem;
+
+   grid-template-columns: 2fr 1.3fr;
+   grid-template-rows: auto;
+
+   grid-template-areas:
+   "featured featured"
+   "weekly weekly"
+   "ai aside";
+
 }
 
 .content-tag {
@@ -64,7 +74,7 @@ main {
     background-color: var(--brand-color-dark);
     padding: 0.3rem;
     border-radius: 0.4rem;
-    font-family: 300 0.6rem/1.2 var(--text);
+    font-family: 200 0.1rem/1.2;
     text-transform: uppercase;
     letter-spacing: 0.04em;
     box-shadow: 0 0.3rem 1rem rgba(2, 6, 23, 0.25);
